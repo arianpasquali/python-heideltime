@@ -1,1 +1,2 @@
 recursive-include TreeTagger *
+recursive-include HeidelTime *

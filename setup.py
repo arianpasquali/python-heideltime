@@ -25,8 +25,10 @@ setup(
     entry_points={        
     },
     include_package_data=True,
-    package_data={'': ['LICENSE','config.props','TreeTagger']},
-    data_files=[('', ['LICENSE','config.props'])],
+    package_data={'': ['LICENSE','config.props'],
+                  'HeidelTime':['de.unihd.dbs.heideltime.standalone.jar']},
+    data_files=[('', ['LICENSE','config.props']),
+                ('HeidelTime', ['de.unihd.dbs.heideltime.standalone.jar'])],
     install_requires=requirements,
     zip_safe=False,
     keywords='python-heideltime',
