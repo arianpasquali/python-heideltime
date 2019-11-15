@@ -9,10 +9,10 @@ considerDate = true
 considerDuration = true
 
 # Set
-considerSet = true
+considerSet = false
 
 # Time
-considerTime = true
+considerTime = false
 
 # Temponyms (make sure you know what you do if you set this to "true")
 considerTemponym = false
